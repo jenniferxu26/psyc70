@@ -1,0 +1,40 @@
+Training
+Top 5 features: ['sma_diff', 'rsi14', 'z_Delta', 'mom3', 'rv20']
+Rows: 293
+LogReg L1  C=0.05  ACC=0.560  IR=0.1668
+LogReg L1  C=0.1   ACC=0.500  IR=-0.0022
+LogReg L1  C=0.2   ACC=0.430  IR=-0.0256
+LogReg L1  C=0.5   ACC=0.470  IR=-0.0125
+RF n=200 d=None  ACC=0.550  IR=-0.0587
+RF n=200 d=10    ACC=0.550  IR=-0.0552
+RF n=400 d=None  ACC=0.555  IR=-0.0429
+RF n=400 d=10    ACC=0.555  IR=-0.0401
+XGB  ACC=0.545  IR=-0.0165
+
+Best model: LR_L1_C0.05, IR=0.1668
+Best model saved. Training completed.
+
+Trading bot
+risk\edge
+0.010.020.0310%
+Final equity = $9,957.26
+Sharpe ratio = -6.04
+Max draw-down = 2.34%Final equity = $10,065.82
+Sharpe ratio = -6.33
+Max draw-down = 2.09%Final equity = $10,062.14
+Sharpe ratio = -6.33
+Max draw-down = 2.09%20%
+Final equity = $9,902.03
+Sharpe ratio = -2.98
+Max draw-down = 4.74%Final equity = $10,122.55
+Sharpe ratio = -3.11
+Max draw-down = 4.24%Final equity = $10,115.36
+Sharpe ratio = -3.11
+Max draw-down = 4.24%30%
+Final equity = $9,839.23
+Sharpe ratio = -2.00
+Max draw-down = 7.07%Final equity = $10,181.23
+Sharpe ratio = -2.07
+Max draw-down = 6.31%Final equity = $10,167.35
+Sharpe ratio = -2.08
+Max draw-down = 6.31%
